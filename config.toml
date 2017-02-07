@@ -2,3 +2,8 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 baseurl = "http://example.org/"
 theme = "hyde"
+
+[params]
+  themeColor = "theme-base-0a"
+  title = "Midwest Mash"
+  googleAnalytics = "UA-84806134-1"
