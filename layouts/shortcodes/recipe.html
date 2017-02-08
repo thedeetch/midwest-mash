@@ -1,0 +1,35 @@
+{{ $url := .Get 0}}
+
+{{ with getJSON $url}}
+<script type="application/ld+json">
+{{ . }}
+</script>
+
+<div itemscope itemtype="http://schema.org/Recipe">
+	<h2 itemprop="name">{{ .name }}</h2>
+	<p itemprop="description">{{ .description }}</p>
+	<meta itemprop="url" content="{{ $.Page.Permalink }}"/>
+	<meta itemprop="author" content="{{ .author }}"/>
+	<meta itemprop="datePublished" content="{{ $.Page.PublishDate }}"/>
+	<meta itemprop="recipeYield" content="{{ .recipeYield }}"/>
+	<img src="{{ .image }}" itemprop="image"/>
+	<span>Cook Time:</span>
+	<span itemprop="cookTime">{{ .cookTime }}</span>
+	<h1>Ingredients:</h1>
+	<ul>
+		{{ range .recipeIngredient }}
+		<li itemprop="recipeIngredient">{{.}}</li>
+		{{ end }}
+	</ul>
+	<h1>Instructions:</h1>
+	<ol itemprop="recipeInstructions">
+		{{ range .recipeInstructions }}
+		<li>{{.}}</li>
+		{{ end }}
+	</ol>
+	{{ with .notes }}
+	<h1>Notes:</h1>
+	<p>{{.}}</p>
+	{{ end }}
+</div>
+{{ end }}

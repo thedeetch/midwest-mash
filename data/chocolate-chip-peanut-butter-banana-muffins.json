@@ -1,0 +1,57 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Recipe",
+  "name": "Chocolate Chip Peanut Butter Banana Muffins",
+  "author": "Traci Dietrich",
+  "recipeCategory": "dessert",
+  "image": "/img/chocolate-chip-peanut-butter-banana-muffins-title.png",
+  "description": "",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.5",
+    "reviewCount": "276",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "prepTime": "",
+  "cookTime": "PT25M",
+  "totalTime": "",
+  "recipeYield": "14 muffins",
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "servingSize": "1 medium slice",
+    "calories": "230 calories",
+    "fatContent": "1 g",
+    "carbohydrateContent": "43 g",
+    "cholesterolContent": "0 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "1 g",
+    "saturatedFatContent": "2 ½ g",
+    "servingSize": "1 Serving",
+    "sodiumContent": "200 mg",
+    "sugarContent": "27 g",
+    "transFatContent": "0 g"
+  },
+  "recipeIngredient": [
+    "3-4 bananas, ripe",
+    "1 egg",
+    "1/2 cup peanut butter",
+    "1 tsp baking powder",
+    "1 tsp baking soda",
+    "1/2 tsp salt",
+    "3/4 cup brown sugar",
+    "1 1/2 cup flour",
+    "6 Tbsp butter softened",
+    "1 tsp vanilla",
+    "1/2 cup chocolate chips"
+  ],
+  "recipeInstructions": [
+    "Preheat oven to 325 degrees. Peel and mash the ripened bananas.",
+    "Mix egg, butter, brown sugar, and vanilla with the bananas.",
+    "Add the baking soda, baking powder, and salt with the flour. Slowly add to banana mixture.",
+    "Add in chocolate chips.",
+    "Scoop into muffin pan lined with baking cups. Fill until 3/4 full. (They will barely rise so don't worry about overfilling).",
+    "Bake for 20-25 minutes or until brown on top. Let cool and enjoy!"
+   ],
+  "notes": "I used PB2 and left it a little on the liquid-y side for added moisture to the muffins."
+}
