@@ -7,3 +7,4 @@ theme = "hyde"
   themeColor = "theme-base-0a"
   title = "Midwest Mash"
   googleAnalytics = "UA-84806134-1"
+  pinterest = true
