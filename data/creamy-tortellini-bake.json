@@ -1,0 +1,36 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Recipe",
+  "name": "Creamy Tortellini Bake",
+  "author": {
+    "@type": "Person",
+    "name": "Traci Dietrich"
+  },
+  "datePublished": "2016-10-04 17:42:50",
+  "image": "/img/creamy-tortellini-bake-title.jpg",
+  "description": "Cheesy, creamy, rich pasta goodness make for a fantastic meat-free meal!",
+  "recipeYield": "8 people",
+  "prepTime": "PT5M",
+  "cookTime": "PT45M",
+  "recipeIngredient": [
+    "1 can tomatoes (diced)",
+    "1 small can tomato paste",
+    "3/4 cup water",
+    "1 Tbsp Italian seasoning",
+    "1 pkg tortellini",
+    "1 cup mozzarella (cubed)",
+    "3/4 cup parmesan (grated)",
+    "1/4 cup cream"
+  ],
+  "recipeInstructions": [
+    "Bring tomatoes and tomato paste to a simmer. Add water to take it to the consistency you desire (I like mine on the thick side)",
+    "Cook tortellini according to package instructions. DO NOT OVERCOOK. Just a little hint - you really don't need to stir while they are cooking, and most usually take 2-3 minutes tops. ",
+    "In the bottom of a casserole dish (I recommend a rectangular one), spread 1/4 cup of your tomato sauce then layer 1/2 of the tortellini followed by more tomato sauce and a layer of mozzarella cubes.",
+    "Before adding the second layer of tortellini, mix the cream and parmesan in a bowl and pour over the first layer. ",
+    "Repeat layers, using the rest of your ingredients and finishing off the top with the cubed mozzarella. ",
+    "Cook at 400 degrees for 25-30 minutes or until mozzarella begins to brown. ",
+    "Serve with a sprinkle of Italian seasoning. Enjoy!"
+  ],
+  "recipeCategory": "Main Dish",
+  "recipeCuisine": "Italian"
+}
