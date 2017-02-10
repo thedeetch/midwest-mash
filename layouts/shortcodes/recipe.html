@@ -6,29 +6,39 @@
 </script>
 
 <div itemscope itemtype="http://schema.org/Recipe">
-	<h2 itemprop="name">{{ .name }}</h2>
+	<h1 itemprop="name">{{ .name }}
+		{{ if $.Site.Params.pinterest }}
+		<amp-social-share type="pinterest"
+		data-param-media="{{ .image | absURL }}"
+		data-param-description="{{ .name }}">
+		</amp-social-share>
+		{{ end }}
+	</h1>
 	<p itemprop="description">{{ .description }}</p>
 	<meta itemprop="url" content="{{ $.Page.Permalink }}"/>
 	<meta itemprop="author" content="{{ .author }}"/>
 	<meta itemprop="datePublished" content="{{ $.Page.PublishDate }}"/>
 	<meta itemprop="recipeYield" content="{{ .recipeYield }}"/>
-	<img src="{{ .image }}" itemprop="image"/>
+
+	<amp-img src="{{ .image }}" itemprop="image" layout="responsive" width="100" height="100">
+	</amp-img>
+
 	<span>Cook Time:</span>
 	<span itemprop="cookTime">{{ .cookTime }}</span>
-	<h1>Ingredients:</h1>
+	<h2>Ingredients:</h2>
 	<ul>
 		{{ range .recipeIngredient }}
 		<li itemprop="recipeIngredient">{{.}}</li>
 		{{ end }}
 	</ul>
-	<h1>Instructions:</h1>
+	<h2>Instructions:</h2>
 	<ol itemprop="recipeInstructions">
 		{{ range .recipeInstructions }}
 		<li>{{.}}</li>
 		{{ end }}
 	</ol>
 	{{ with .notes }}
-	<h1>Notes:</h1>
+	<h2>Notes:</h2>
 	<p>{{.}}</p>
 	{{ end }}
 </div>
