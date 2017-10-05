@@ -1,9 +1,4 @@
-<link href="{{ "css/theme.css" | absURL }}" rel="stylesheet" />
-<aside>
-    <h1>Midwest Mash</h1>
-    <p>A Iowan turned Colorado transplant.</p>
-</aside>
-<main id="wrapper">
+{{ partial "header.html" . }}
     <div id="columns">
         {{ range .Data.Pages }}
             <div class="pin">
@@ -17,4 +12,4 @@
             </div>
         {{ end }}
     </div>
-</main>
+{{ partial "footer.html" . }}
