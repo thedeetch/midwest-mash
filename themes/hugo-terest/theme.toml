@@ -6,8 +6,8 @@ license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
 description = ""
 homepage = "http://siteforthistheme.com/"
-tags = []
-features = []
+tags = ["blog"]
+features = ["blog"]
 min_version = "0.23"
 
 [author]
