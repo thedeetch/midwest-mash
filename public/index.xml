@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Midwest Mash</title>
-    <link>https://midwestmash.com/</link>
+    <link>https://beta.midwestmash.com/</link>
     <description>Recent content on Midwest Mash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Feb 2017 17:21:08 -0700</lastBuildDate>
     
-	<atom:link href="https://midwestmash.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://beta.midwestmash.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Meatless Mondays Tortellini Bake</title>
-      <link>https://midwestmash.com/post/meatless-mondays-tortellini-bake/</link>
+      <link>https://beta.midwestmash.com/post/meatless-mondays-tortellini-bake/</link>
       <pubDate>Wed, 08 Feb 2017 17:21:08 -0700</pubDate>
       
-      <guid>https://midwestmash.com/post/meatless-mondays-tortellini-bake/</guid>
+      <guid>https://beta.midwestmash.com/post/meatless-mondays-tortellini-bake/</guid>
       <description>&lt;p&gt;Look forward to meatless mondays!&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>Chocolate Chip Peanut Butter Banana Muffins</title>
-      <link>https://midwestmash.com/post/chocolate-chip-peanut-butter-banana-muffins/</link>
+      <link>https://beta.midwestmash.com/post/chocolate-chip-peanut-butter-banana-muffins/</link>
       <pubDate>Tue, 11 Oct 2016 19:49:52 -0700</pubDate>
       
-      <guid>https://midwestmash.com/post/chocolate-chip-peanut-butter-banana-muffins/</guid>
+      <guid>https://beta.midwestmash.com/post/chocolate-chip-peanut-butter-banana-muffins/</guid>
       <description>&lt;p&gt;Yummy muffins for any chocolate lover!&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
