@@ -1,10 +1,11 @@
 languageCode = "en-us"
-title = "My New Hugo Site"
-baseurl = "http://example.org/"
-theme = "hyde"
+title = "Midwest Mash"
+baseurl = "http://midwestmash.com/"
+theme = "hugo-terest"
 
 [params]
-  themeColor = "theme-base-0a"
+  themeColor = "violet"
+  style = "violet"
   title = "Midwest Mash"
   googleAnalytics = "UA-84806134-1"
   pinterest = true

@@ -1,8 +1,13 @@
 +++
 date = "2017-02-08T17:21:08-07:00"
 title = "Meatless Mondays Tortellini Bake"
+image = "img/creamy-tortellini-bake-title.jpg"
 
 +++
+
+Look forward to meatless mondays!
+
+<!--more-->
 
 It was one of my New Year’s resolutions to eat less red meat, and to try to eat healthier not only for myself but for my husband. We eat out wayyy too much but we also know that for now there is just the two of us, so those care free, spur of the moment nights out are probably limited. We have a tradition of going out on Thursday nights – I don’t remember how it started. I think we decided to go out for Mexican and margaritas one Thursday in West Des Moines, and after that we decided that the $11 pitchers (best. deal. ever.) were definitely right up our alley.
 

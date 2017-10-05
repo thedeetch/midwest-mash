@@ -1,0 +1,20 @@
+<link href="{{ "css/theme.css" | absURL }}" rel="stylesheet" />
+<aside>
+    <h1>Midwest Mash</h1>
+    <p>A Iowan turned Colorado transplant.</p>
+</aside>
+<main id="wrapper">
+    <div id="columns">
+        {{ range .Data.Pages }}
+            <div class="pin">
+                <a href="{{ .Permalink }}">
+                    <img src="{{ .Params.image }}" alt="" class="img-responsive">
+                </a>
+                <div class="pin-text">
+                    <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                    {{ .Summary }}
+                </div>
+            </div>
+        {{ end }}
+    </div>
+</main>

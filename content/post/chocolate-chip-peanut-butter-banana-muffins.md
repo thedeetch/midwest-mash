@@ -1,8 +1,13 @@
 +++
 date = "2016-10-11T19:49:52-07:00"
 title = "Chocolate Chip Peanut Butter Banana Muffins"
-
+image = "img/chocolate-chip-peanut-butter-banana-muffins-title.png"
+summary = "This is the post summary."
 +++
+
+Yummy muffins for any chocolate lover!
+
+<!--more-->
 
 Sorry for the week long hiatus! I really have no wonderful reason behind it besides being on the job search and to be quite honest, not feeling the inspiration bug for recipes last week. Sometimes you just don’t feel it. I did try out a few recipes last week though that weren’t blog worthy, but definitely will be in the future with a little tweaking (coming soon: Mexican fried rice and Thai peanut noodles).
 
