@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Midwest Mash"
-baseurl = "https://midwestmash.com/"
+baseurl = "https://beta.midwestmash.com/"
 theme = "hugo-terest"
 
 [params]
