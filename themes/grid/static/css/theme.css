@@ -28,7 +28,7 @@
 .wrapper > * {
   grid-column: col-start / span 12;
 }
-@media (min-width: 500px) {
+/*@media (min-width: 500px) {
 
   .side {
     grid-column: col-start / span 3;
@@ -45,29 +45,29 @@
     display: flex;
     justify-content: space-between;
   }
-}
+}*/
 @media (min-width: 700px) {
   .main-nav {
-    grid-column: col-start / span 2;
-    grid-row: 2 / 4;
+    grid-column: col-start / span 12;
   }
   .content {
-    grid-column: col-start 3 / span 8;
-    grid-row: 2 / 4;
+    grid-column: col-start / span 10;
+    grid-row: 3 / 5;
   }
   .side {
     grid-column: col-start 11 / span 2;
-    grid-row: 2;
+    grid-row: 3;
   }
   .ad {
     grid-column: col-start 11 / span 2;
-    grid-row: 3;
+    grid-row: 4;
   }
   .main-footer {
     grid-column: col-start / span 12;
   }
   nav ul {
-    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
