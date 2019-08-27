@@ -1,9 +1,17 @@
 {{ define "main" }}
-  <h1>Posts</h1>
+<ul class="listing">
   {{ range .Pages }}
+  <li>
     <article>
-      <h2>{{ .Title }}</h2>
-      {{ .Content }}
+	<!--     <a href="{{ .Permalink }}">
+      <img src="{{ .Params.image }}" alt="" class="img-responsive">
+    </a> -->
+      <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+
+      <div class="body"><p>{{ .Summary }}</p></div>
+      <div class="cta"><a href="">Call to action!</a></div>
     </article>
+  </li>
   {{ end }}
+</ul>
 {{ end }}

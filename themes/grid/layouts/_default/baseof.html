@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="{{ "css/theme.css" | absURL }}" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Niconne|Raleway&display=swap" rel="stylesheet">
         <title>
             {{ block "title" . }}
             {{ .Site.Title }}
@@ -12,21 +13,24 @@
     </head>
     <body>
         <div class="wrapper">
-            <header class="main-head">Midwest Mash</header>
-            <nav class="main-nav">
-                <ul>
-                <li><a href="">Recipes</a></li>
-                <li><a href="">Social</a></li>
-                <li><a href="">About</a></li>
-                </ul>
-            </nav>
+            <header class="main-head">
+              <h1><a href="">Midwest Mash</a></h1>
+            </header>
+                <nav class="main-nav">
+                    <ul>
+                    <li><a href="">Recipes</a></li>
+                    <li><a href="">Tags</a></li>
+                    <li><a href="">Social</a></li>
+                    <li><a href="">About</a></li>
+                    </ul>
+                </nav>
+            <div class="content">
                 {{ block "main" . }}
                 {{ end }}
+            </div>
             <aside class="side">Sidebar</aside>
             <div class="ad">Advertising</div>
-            <footer class="main-footer">
-            The footer
-            </footer>
+            <footer class="main-footer">Dishing on Food and Life from my home to yours</footer>
         </div>
     </body>
 </html>

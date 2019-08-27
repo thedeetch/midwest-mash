@@ -3,12 +3,14 @@
     .wrapper {
         max-width: 1024px;
         margin: 0 auto;
-        font: 1.2em Helvetica, arial, sans-serif;
+        /*font: 1.2em Helvetica, arial, sans-serif;*/
+        font: inherit;
+        color: #797979;
     }
 
     .wrapper > * {
-        border: 2px solid #f08c00;
-        background-color: #ffec99;
+        /*border: 2px solid #f08c00;*/
+        /*background-color: #ffec99;*/
         border-radius: 5px;
         padding: 10px;
     }
@@ -19,33 +21,24 @@
         padding: 0;
     }
 
+body {
+  margin: 0px;
+}
+
 /* Main */
 .wrapper {
   display: grid;
   grid-template-columns: repeat(12, [col-start] 1fr);
-  grid-gap: 20px;
+  grid-gap: 0px;
 }
 .wrapper > * {
   grid-column: col-start / span 12;
 }
-/*@media (min-width: 500px) {
 
-  .side {
-    grid-column: col-start / span 3;
-    grid-row: 3;
-  }
-  .ad {
-    grid-column: col-start / span 3;
-    grid-row: 4;
-  }
-  .content, .main-footer {
-    grid-column: col-start 4 / span 9;
-  }
-  nav ul {
-    display: flex;
-    justify-content: space-between;
-  }
-}*/
+.wrapper a {
+      text-decoration: none;
+}
+
 @media (min-width: 700px) {
   .main-nav {
     grid-column: col-start / span 12;
@@ -71,19 +64,60 @@
   }
 }
 
+.main-head {
+  background-color: peachpuff;
+}
+.main-head h1 {
+  font-family: 'Niconne',cursive;
+  font-size: 40px;
+  margin: 0;
+  font-weight: 400;
+
+  text-align: center;
+}
+.main-head a {
+    text-decoration: none;
+      color: #36ab8a;
+}
+.main-head h2 {
+  font-family: 'Raleway',sans-serif;
+  text-transform: uppercase;
+  font-size: .857em;
+  font-weight: normal;
+  margin: 0 0 2em 0;
+  letter-spacing: .2em;
+  text-align: center;
+}
+
+article h4, h1 {
+  font-family: 'Raleway',sans-serif;
+  text-align: center;
+}
+
+article h4, h1 a {
+    color: #36ab8a;
+}
+
+.main-footer {
+  text-align: center;
+}
+
 /* Listing */
 .listing {
   list-style: none;
-  margin: 2em;
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+  padding: 0px;
+  margin:0px;
 }
 .listing li {
-  border: 1px solid #ffe066;
+  /*border: 1px solid #ffe066;*/
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.17);
+
 }
 .listing .cta {
   margin-top: auto;

@@ -1,19 +1,26 @@
 {{ define "main" }}
-<div class="content">
 <ul class="listing">
-  {{ range .Data.Pages }}
+  {{ range .Pages }}
   <li>
-
-<!--     <a href="{{ .Permalink }}">
+    <article>
+	<!--     <a href="{{ .Permalink }}">
       <img src="{{ .Params.image }}" alt="" class="img-responsive">
     </a> -->
-
-                    <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-
-    <div class="body"><p>{{ .Summary }}</p></div>
-    <div class="cta"><a href="">Call to action!</a></div>
+      <img src="{{ .Params.Image }}" alt="{{ .Title }}" style="width:200px;height:300px;"/>
+      <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+      <div class="body">{{ .Summary }}</div>
+    </article>
+  </li>
+    <li>
+    <article>
+	<!--     <a href="{{ .Permalink }}">
+      <img src="{{ .Params.image }}" alt="" class="img-responsive">
+    </a> -->
+          <img src="{{ .Params.Image }}" alt="{{ .Title }}" style="width:200px;height:300px;"/>
+      <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+      <div class="body">{{ .Summary }}</div>
+    </article>
   </li>
   {{ end }}
 </ul>
-</div>
 {{ end }}
