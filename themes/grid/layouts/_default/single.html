@@ -2,8 +2,8 @@
   {{ .Title }} &ndash; {{ .Site.Title }}
 {{ end }}
 {{ define "main" }}
-<article class="content">
-  <h1><a>{{ .Title }}</a></h1>
-  {{ .Content }}
-</article>
+  <article class="content">
+      <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+      <div class="body">{{ .Content }}</div>
+    </article>
 {{ end }}

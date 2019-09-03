@@ -11,7 +11,7 @@
     .wrapper > * {
         /*border: 2px solid #f08c00;*/
         /*background-color: #ffec99;*/
-        border-radius: 5px;
+        /*border-radius: 5px;*/
         padding: 10px;
     }
 
@@ -23,6 +23,11 @@
 
 body {
   margin: 0px;
+  background-color: #fafafa;
+}
+
+img {
+  max-width: 100%;
 }
 
 /* Main */
@@ -30,6 +35,8 @@ body {
   display: grid;
   grid-template-columns: repeat(12, [col-start] 1fr);
   grid-gap: 0px;
+  background-color: #ffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .wrapper > * {
   grid-column: col-start / span 12;
@@ -44,35 +51,37 @@ body {
     grid-column: col-start / span 12;
   }
   .content {
-    grid-column: col-start / span 10;
+    grid-column: col-start / span 9;
     grid-row: 3 / 5;
   }
   .side {
-    grid-column: col-start 11 / span 2;
+    grid-column: col-start 10 / span 3;
     grid-row: 3;
   }
   .ad {
-    grid-column: col-start 11 / span 2;
+    grid-column: col-start 10 / span 3;
     grid-row: 4;
   }
   .main-footer {
     grid-column: col-start / span 12;
   }
+
+}
+
   nav ul {
     display: flex;
     justify-content: space-between;
   }
-}
 
-.main-head {
-  background-color: peachpuff;
+.main-nav {
+  background-color: seashell;
+  font-family: 'Raleway',sans-serif;
 }
 .main-head h1 {
   font-family: 'Niconne',cursive;
   font-size: 40px;
   margin: 0;
   font-weight: 400;
-
   text-align: center;
 }
 .main-head a {
@@ -89,18 +98,41 @@ body {
   text-align: center;
 }
 
-article h4, h1 {
+h1, h2, h3, h4 {
   font-family: 'Raleway',sans-serif;
   text-align: center;
 }
 
-article h4, h1 a {
+h1, h2, h3, h4, a, a:visited {
     color: #36ab8a;
+    text-decoration: none;
+    /*font-weight: inherit;*/
+
+}
+
+h1 {
+      font-size: 1.5em;
 }
 
 .main-footer {
   text-align: center;
 }
+
+.main-nav {
+  /*border-top: solid #e1e1e1;*/
+  /*border-bottom: solid #e1e1e1;*/
+}
+
+.side {
+    font-family: 'Raleway',sans-serif;
+    text-align: center;
+}
+
+    .side ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
 
 /* Listing */
 .listing {

@@ -1,26 +1,17 @@
 {{ define "main" }}
-<ul class="listing">
-  {{ range .Pages }}
-  <li>
-    <article>
-	<!--     <a href="{{ .Permalink }}">
-      <img src="{{ .Params.image }}" alt="" class="img-responsive">
-    </a> -->
-      <img src="{{ .Params.Image }}" alt="{{ .Title }}" style="width:200px;height:300px;"/>
-      <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-      <div class="body">{{ .Summary }}</div>
+  {{ range first 1 .Pages }}
+  <article>
+      <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+      <div class="body">{{ .Content }}</div>
     </article>
-  </li>
-    <li>
-    <article>
-	<!--     <a href="{{ .Permalink }}">
-      <img src="{{ .Params.image }}" alt="" class="img-responsive">
-    </a> -->
-          <img src="{{ .Params.Image }}" alt="{{ .Title }}" style="width:200px;height:300px;"/>
-      <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-      <div class="body">{{ .Summary }}</div>
-    </article>
-  </li>
+  <hr>
   {{ end }}
-</ul>
+
+  {{ range first 5 (after 1 .Pages) }}
+  <article>
+      <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+      <div class="body">{{ .Summary }}</div>
+  </article>
+  <hr>
+  {{ end }}
 {{ end }}
