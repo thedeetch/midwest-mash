@@ -65,7 +65,12 @@ img {
   .main-footer {
     grid-column: col-start / span 12;
   }
-
+  .main-head {
+    grid-column: col-start / span 10;
+  }
+  .social {
+    grid-column: col-start 11 / span 2;
+  }
 }
 
   nav ul {
@@ -82,7 +87,7 @@ img {
   font-size: 40px;
   margin: 0;
   font-weight: 400;
-  text-align: center;
+
 }
 .main-head a {
     text-decoration: none;
@@ -95,10 +100,24 @@ img {
   font-weight: normal;
   margin: 0 0 2em 0;
   letter-spacing: .2em;
-  text-align: center;
+
 }
 
-h1, h2, h3, h4 {
+.social {
+  text-align: center;
+    letter-spacing: .5em;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.social i {
+    font-size: 20px;
+  color: #797979;
+
+}
+
+
+h2, h3, h4 {
   font-family: 'Raleway',sans-serif;
   text-align: center;
 }

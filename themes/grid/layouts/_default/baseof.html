@@ -20,23 +20,24 @@
             <header class="main-head">
               <h1><a href="">Midwest Mash</a></h1>
             </header>
-                <nav class="main-nav">
-                    <ul>
-                    <li><a href="">About Me</a></li>
-                    <li><a href="">Recipes</a></li>
-                    <li><a href="">Oh Baby</a></li>
-                    <li><a href="">Mom Blog</a></li>
-                    </ul>
-                </nav>
+            <div class="social">
+                <a href="{{ .Site.Params.pinterest }}"><i class="fab fa-pinterest"></i></a>
+                <a href="{{ .Site.Params.facebook }}"><i class="fab fa-facebook"></i></a>
+                <a href="{{ .Site.Params.instagram }}"><i class="fab fa-instagram"></i></a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                <li><a href="">About Me</a></li>
+                <li><a href="">Recipes</a></li>
+                <li><a href="">Oh Baby</a></li>
+                <li><a href="">Mom Blog</a></li>
+                </ul>
+            </nav>
             <div class="content">
                 {{ block "main" . }}
                 {{ end }}
             </div>
             <aside class="side">
-                <h4>Follow Me</h4>
-                <a href="{{ .Site.Params.pinterest }}"><i class="fab fa-pinterest"></i></a>
-                <a href="{{ .Site.Params.facebook }}"><i class="fab fa-facebook"></i></a>
-                <a href="{{ .Site.Params.instagram }}"><i class="fab fa-instagram"></i></a>
                 <h4>Recent Posts</h4>
                 <ul>
                 {{ range first 5 .Pages }}
