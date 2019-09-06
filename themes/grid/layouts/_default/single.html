@@ -3,7 +3,8 @@
 {{ end }}
 {{ define "main" }}
   <article class="content">
-      <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <h4>By {{ .Site.Params.author }}</h4>
 
       {{ partial "social.html" . }}
 
