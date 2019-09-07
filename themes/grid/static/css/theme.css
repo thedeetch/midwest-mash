@@ -67,6 +67,7 @@ img {
   }
   .main-head {
     grid-column: col-start / span 10;
+    text-align: left;
   }
   .social {
     grid-column: col-start 11 / span 2;
@@ -79,6 +80,8 @@ img {
   }
 
 .main-nav {
+  padding-left: 34px;
+  padding-right: 34px;
   background-color: seashell;
   font-family: 'Raleway',sans-serif;
 }
@@ -101,6 +104,15 @@ img {
   margin: 0 0 2em 0;
   letter-spacing: .2em;
 
+}
+
+.main-head {
+    padding-left: 34px;
+      padding-right: 34px;
+}
+
+.content {
+  padding: 3em 34px;
 }
 
 .social {
