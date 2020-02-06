@@ -1,11 +1,10 @@
 languageCode = "en-us"
 title = "Midwest Mash"
 baseurl = "https://beta.midwestmash.com/"
-theme = "grid"
+theme = "sugar-and-spice"
 
 [params]
   author = "Traci Dietrich"
-  title = "Midwest Mash"
   description = "Dishing on Food and Life from my home to yours"
   googleAnalytics = "UA-84806134-1"
 
