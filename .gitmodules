@@ -3,4 +3,4 @@
 	url = https://github.com/spf13/hyde.git
 [submodule "themes/sugar-and-spice"]
 	path = themes/sugar-and-spice
-	url = git@github.com:thedeetch/sugar-and-spice.git
+	url = https://github.com/thedeetch/sugar-and-spice.git
