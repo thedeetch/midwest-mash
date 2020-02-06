@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Midwest Mash"
-baseurl = "https://beta.midwestmash.com/"
+baseurl = "https://sleepy-kare-3ac017.netlify.com"
 theme = "sugar-and-spice"
 
 [params]
