@@ -16,6 +16,9 @@ theme = "sugar-and-spice"
   aboutMeImage = "https://midwestmash.com/wp-content/uploads/2016/10/Nick-and-Traci-All-Photos-0522.jpg"
   summary = "Iowa girl turned Colorado transplant. Self-proclaimed home chef and mama to two little boys. Exploring food and embracing motherhood daily.  For collaborations please e-mail me at traci.dietrich@gmail.com"
 
+[permalinks]
+  post = "/:title"
+
 [menu]
   [[menu.main]]
     name = "About Me"
