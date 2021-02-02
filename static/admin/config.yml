@@ -43,5 +43,8 @@ collections:
           - label: "Ingredients"
             name: "recipeIngredient"
             widget: "list"
-            field: {label: "Ingredient", widget: "string"}
-          - {label: "Instructions", name: "recipeInstructions", widget: "list"}
+            field: {label: "Ingredient", name: "ingredient", widget: "string"}
+          - label: "Instructions"
+            name: "recipeInstructions"
+            widget: "list"
+            field: {label: "Step", name: "step", widget: "string"}
