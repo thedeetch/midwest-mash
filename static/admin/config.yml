@@ -43,8 +43,10 @@ collections:
           - label: "Ingredients"
             name: "recipeIngredient"
             widget: "list"
+            minimize_collapsed: true
             field: {label: "Ingredient", name: "ingredient", widget: "string"}
           - label: "Instructions"
             name: "recipeInstructions"
             widget: "list"
+            minimize_collapsed: true
             field: {label: "Step", name: "step", widget: "string"}
