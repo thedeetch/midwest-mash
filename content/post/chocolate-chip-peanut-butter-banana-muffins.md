@@ -3,7 +3,7 @@ date = "2016-10-11T19:49:52-07:00"
 title = "Chocolate Chip Peanut Butter Banana Muffins"
 image = "/img/chocolate-chip-peanut-butter-banana-muffins-title.png"
 summary = "This is the post summary."
-authors = ["Traci Dietrich"]
+author = "Traci Dietrich"
 
 [recipe]
   title = "Chocolate Chip Peanut Butter Banana Muffins"

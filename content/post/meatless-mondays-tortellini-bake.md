@@ -2,7 +2,7 @@
 date = "2017-02-08T17:21:08-07:00"
 title = "Meatless Mondays Tortellini Bake"
 image = "/img/creamy-tortellini-bake-title.jpg"
-authors = ["Traci Dietrich"]
+author = "Traci Dietrich"
 
 +++
 
