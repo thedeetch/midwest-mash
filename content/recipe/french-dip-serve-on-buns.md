@@ -1,7 +1,8 @@
 ---
+authors: Traci Dietrich
 layout: recipe
 title: French Dip (Serve on Buns)
-authors: Traci Dietrich
+author: Traci Dietrich
 date: 2016-09-27T20:36:00.000Z
 categories:
   - sandwiches
